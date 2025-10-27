@@ -20,6 +20,12 @@ extern UART_HandleTypeDef huart3; // BLE(USART3)
 /* <FORWARD_TYPES begin> */
 // === 상태머신 및 데이터 구조 ===
 
+// === UI 모드 ===
+typedef enum {
+    MODE_DRIVE = 0,  // 주행 모드
+    MODE_ARM   = 1   // 로봇팔 제어 모드
+} UIMode;
+
 // 안전 FSM(장애물 감지 시 경고/후진)
 typedef enum {
     SAFE_IDLE = 0, // 대기
@@ -71,11 +77,16 @@ typedef struct {
 extern volatile SafetyFSM    g_safe;
 extern volatile MelodyPlayer g_player;
 extern volatile AttackFSM    g_att;
+extern volatile UIMode g_mode;
 /* <GLOBAL_STATE_EXTERN end> */
 
 /* <CONSTS_AND_MACROS begin> */
 // === 안전 임계값 ===
 #define SAFE_MM_THRESHOLD 150     // 전진 시 안전거리(mm)
+
+/* === ACC & PATROL consts === */
+#define ACC_NEAR_MM   170   // 이보다 가까우면 정지
+#define ACC_OK_MM     250   // 이보다 멀면 연속 전진, 사이 구간은 펄스 전진
 
 // === BLE 수신 링버퍼 크기/초음파 타임아웃(1MHz 기준) ===
 #define RX3_BUF_SZ    64
@@ -136,6 +147,10 @@ extern volatile AttackFSM    g_att;
 #define CYAN    0x07FF
 #define MAGENTA 0xF81F
 #define YELLOW  0xFFE0
+
+// 로봇팔 이동 파라미터
+#define ARM_STEP_DEG  1      // 한번 틱마다 움직일 각도(도)
+#define ARM_TICK_MS   20     // 로봇팔 틱 주기(ms) - 부드러운 연속구동
 
 // === 서보 각도·CCR 범위(TIM3 CH3) ===
 #define MAX     125   // 2.5ms
@@ -237,6 +252,18 @@ static inline void servo_set_ccr_ch3(uint16_t ccr) {
 static inline void servo_set_deg_ch3(int deg) {
     servo_set_ccr_ch3(SERVO_CCR_FROM_DEG(deg));
 }
+
+// 서보2: TIM3 CH4 CCR 설정(범위 클램프)
+static inline void servo_set_ccr_ch4(uint16_t ccr) {
+    if (ccr < SERVO_CCR_MIN) ccr = SERVO_CCR_MIN;
+    if (ccr > SERVO_CCR_MAX) ccr = SERVO_CCR_MAX;
+    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4, ccr);
+}
+// 서보2: 각도(도)로 설정
+static inline void servo_set_deg_ch4(int deg) {
+    servo_set_ccr_ch4(SERVO_CCR_FROM_DEG(deg));
+}
+
 /* <SERVO_INLINE_HELPERS end> */
 
 /* <PROTOTYPES begin> */
@@ -251,7 +278,6 @@ void smartcar_stop(void);
 void buzzer_set_freq_ch2(uint16_t freq);
 void melody_stop(void);
 void melody_start(const Note *seq, int len);
-void play_tone(uint16_t frequency, uint16_t duration);
 void play_mario_theme(void);
 
 // === LCD ===
