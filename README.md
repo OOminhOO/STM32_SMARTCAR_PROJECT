@@ -1,4 +1,3 @@
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/9f43840b-2d28-481a-88df-9eed10f93778" /># STM32_SMARTCAR_PROJECT
 ## STM32프로세서 NUCLEO_F103RB 보드를 이용한 RC SmartCar 프로젝트
 ## (STM32F103RB + HC-SR04 + ST7735S + DHT11 + BLE)
 
