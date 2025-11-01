@@ -1,7 +1,7 @@
 ## STM32프로세서 NUCLEO_F103RB 보드를 이용한 RC SmartCar 프로젝트
 ## (STM32F103RB + HC-SR04 + ST7735S + DHT11 + BLE)
 
-
+https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4
 https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
 
 
