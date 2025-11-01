@@ -2,6 +2,14 @@
 ## (STM32F103RB + HC-SR04 + ST7735S + DHT11 + BLE)
 
 
+https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
+
+
+https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6e1600
+
+
+
+
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/f99004a6-ffff-458c-8ae8-05328ed5a075" />
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a8dc09e9-4034-4705-bd9b-ae313947dcf8" />
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/afe5d1ca-d858-4328-86b8-79b887b8bb0b" />
