@@ -59,9 +59,14 @@ https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6
 
 ---
 
-## 스마트카 기능 특징
+## 스마트카 기능 설명 및 제어 방법  
+<details>
+<summary>펼치기/접기 </summary>  
+  
 스마트폰의 Serial Bluetooth Terminal (Android)앱을 통하여 stm32보드와 블루투스 통신을 통하여 스마트카를 제어한다.
-### 주행모드
+
+
+### 주행모드  
 #### Manual mode  
 스마트폰 블루투스 입력을 통하여 제어  
 세이프모드 on 상태일 때, 전진 상태일 때 초음파 센서에 20cm이하 감지시 경고음 2초 후진 2초 진행  
@@ -109,7 +114,7 @@ w,s,a,d,f : 상,하,좌,우,정지
 u : 원위치  
 x :  주행모드 전환  
 
-
+</details>
 
 
 
