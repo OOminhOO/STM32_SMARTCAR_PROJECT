@@ -33,22 +33,33 @@ https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6e1600
 <img width="1085" height="579" alt="image" src="https://github.com/user-attachments/assets/42971f83-c278-4d60-8501-e2ded8bb589e" />
 
 ---
-## 사용 모듈  및 핀맵  
+## 사용 모듈  및 핀맵 하드웨어 연결  
 <img width="622" height="567" alt="image" src="https://github.com/user-attachments/assets/67e79759-0c27-4777-ad06-a5fc3c9e06c4" />
 <img width="2512" height="1812" alt="image" src="https://github.com/user-attachments/assets/cdfae1f4-966f-4b64-9d80-7627686f2fdd" />
 <img width="644" height="586" alt="image" src="https://github.com/user-attachments/assets/9539791a-2bcb-46d6-b169-1ecf866402ed" />
 <img width="1696" height="1242" alt="image" src="https://github.com/user-attachments/assets/cc91a75f-8b24-4bfd-93d1-1abe728dac77" />
 <img width="1786" height="1461" alt="image" src="https://github.com/user-attachments/assets/1db90c7b-38bc-4202-93b7-6f643953590a" />
 
-
-
----
-
-  
-## 하드웨어 블록도  
+ 
 
 ---
 ## 소프트웨어 블락도  
+
+- 슈퍼루프(Non-Blocking): HAL_Delay() 최소화, 다중 작업을 이벤트/시간 기반 틱으로 번갈아 처리
+- 시간·이벤트 기반: HAL_GetTick()으로 스케줄
+- BT 수신은 인터럽트로 받고 루프에서 처리
+- 상태 틱 구조: patrol / cruise / melody / safety /arm 등  함수(tick) 들을 매 루프 갱신
+- 주기 예시: DHT11 10초 / 초음파 60 ms (좌·우 교대)
+- 전체 코드 및 주석은 첨부파일 main.c와 smartcar.h를 참조
+
+<br>
+<img width="1529" height="2190" alt="image" src="https://github.com/user-attachments/assets/4c3b8ad7-90f9-41f3-868e-1b583e8555ae" />
+
+
+
+
+
+
 
 
 
