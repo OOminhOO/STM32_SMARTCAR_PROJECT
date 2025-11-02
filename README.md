@@ -24,7 +24,11 @@ https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
   
 
 **PATROL (자동순찰) 모드 주행**  
-https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6록 연결  
+
+https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6
+
+---
+## 주요 모듈 및 핀맵 하드웨어 연결
 <img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/67e79759-0c27-4777-ad06-a5fc3c9e06c4" />
 <img width="500" height="470" alt="image" src="https://github.com/user-attachments/assets/9539791a-2bcb-46d6-b169-1ecf866402ed" />  
 <img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/cc91a75f-8b24-4bfd-93d1-1abe728dac77" />
