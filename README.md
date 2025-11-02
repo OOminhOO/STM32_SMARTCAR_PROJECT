@@ -2,7 +2,6 @@
 # SMARTCAR_PROJECT
 ---
 ## 프로그램 목표  
-<br>  
 
 - 교육과정중 학습한 BT04-A, DHT11, ST7735S, SG90, HC-SR04, MH-FMD 등의 모듈을 이용하여 다기능 스마트카를 제작한다  
 
