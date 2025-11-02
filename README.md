@@ -19,13 +19,14 @@ https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4
 
   
 **CRUISE 모드 주행**  
-https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
+https://github.com/user-attachments/assets/305a502c-8d28-4acd-9f63-e025dc545eda  
 
   
 
 **PATROL (자동순찰) 모드 주행**  
+https://github.com/user-attachments/assets/91ee5a69-d2fd-44d5-b6e6-96c3da15ccdb
 
-https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6
+
 
 ---
 ## 주요 모듈 및 핀맵 하드웨어 연결
@@ -169,12 +170,11 @@ x :  주행모드 전환
 
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/5a03dea8-c330-4848-9dfa-0acd9f8788e0" />
 
-https://github.com/user-attachments/assets/305a502c-8d28-4acd-9f63-e025dc545eda  
+
 
   
 
 
-https://github.com/user-attachments/assets/91ee5a69-d2fd-44d5-b6e6-96c3da15ccdb
 
 
 </details>
