@@ -7,7 +7,8 @@
 
 - 각 기능을 통합하며 비동기(Non-Blocking) 소프트웨어 제어 및 알고리즘 구현 능력 향상
   
-- 각 모듈에 대한
+- 각 모듈에 대한 정리
+  
   https://github.com/OOminhOO/STM32/tree/main/NUCLEO_F103RB
 
 ---
