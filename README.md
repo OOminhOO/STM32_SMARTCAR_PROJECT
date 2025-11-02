@@ -53,12 +53,64 @@ https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6록 �
 <br>
 <img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/4c3b8ad7-90f9-41f3-868e-1b583e8555ae" />
 
+---
+
+## 스마트카 기능 특징
+스마트폰의 Serial Bluetooth Terminal (Android)앱을 통하여 stm32보드와 블루투스 통신을 통하여 스마트카를 제어한다.
+### 주행모드
+#### Manual mode  
+스마트폰 블루투스 입력을 통하여 제어  
+세이프모드 on 상태일 때, 전진 상태일 때 초음파 센서에 20cm이하 감지시 경고음 2초 후진 2초 진행  
+후진시 엘리제를 위하여 후진 알림음 
+<br>  
+
+w,s,a,d,f : 전진,후진,좌회전,우회전,정지  
+u : 총돌방지 safe 모드 on/off 토글  
+c : 크루즈 모드 on  
+p : 자율 순찰 모드 on  
+<br>  
+
+#### 크루즈 모드  
+센서 값 무효일때 또는 17cm 이하 일때  
+->정지  
+<br>  
+  
+17cm ~25 cm 사이 일 때  
+-> 부드럽게 펄스 주행  
+<br>  
+
+25cm ~ 측정범위  
+-> 연속 전진  
+<br>
+c : 크루즈 모드 off, 주행 manual mode 전환
+<br>  
+<br>  
+
+
+#### 자율순찰 모드  
+
+초음파 센서값 25cm이하일때  
+-> 좌,우 거리값비교 -> 더 먼쪽으로 0.5초 회전  
+<br>  
+초음파 센서값이 양쪽다 15cm 이하일때  
+  ->후진 0.5초  
+<br>
+p : 자율순찰 모드 off, 주행 manula mode 전환
+<br>  
+<br>  
+
+---
+### 로봇팔 모드 
+w,s,a,d,f : 상,하,좌,우,정지  
+u : 원위치  
+x :  주행모드 전환  
 
 
 
 
 
 
+---
 
 
 ## 프로젝트 발표 ppt 사진
