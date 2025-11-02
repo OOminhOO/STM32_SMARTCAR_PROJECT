@@ -13,12 +13,16 @@
 **주행영상 링크**
 https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4  
 
-**CRUISE 모드 주행**
+  
+**CRUISE 모드 주행**  
 https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
+
+  
 
 **PATROL (자동순찰) 모드 주행**  
 https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6e1600
 
+  
 ---
 
 ## 개발 환경
