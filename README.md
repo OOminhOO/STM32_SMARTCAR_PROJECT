@@ -10,7 +10,7 @@
 ---
 ## 구현 영상
 
-**주행/로봇팔 MANUAL 모드영상**
+**주행/로봇팔 MANUAL 모드 영상**  
 https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4  
 
   
