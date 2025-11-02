@@ -1,4 +1,73 @@
-## STM32프로세서 NUCLEO_F103RB 보드를 이용한 RC SmartCar 프로젝트
+
+# SMARTCAR_PROJECT
+---
+## 프로그램 목표  
+<br>
+  
+- 교육과정중 학습한 BO04-A, DHT11, ST7735S, SG90, HC-SR04, MH-FMD 등의 모듈을 이용하여 다기능 스마트카를 제작한다
+- 각 기능을 통합하며 비동기(Non-Blocking) 소프트웨어 제어 및 알고리즘 구현 능력 향상 
+- 각 모듈에 대한 GITHUB 정리 https://github.com/OOminhOO/STM32
+
+---
+
+## 개발 환경
+
+ 구분
+항목
+내용
+비고
+ 기본환경
+OS
+Microsoft Windows 11 (64-bit)
+ 
+Target MCU
+STM32 NUCLEO-F103RB
+ 
+IDE
+STM32CubeIDE 
+ 
+ 소프트웨어 구성
+Programming Language
+C (Embedded C)
+ 
+Debug / Upload
+ST-LINK/V2 (on-board)
+ 
+ 하드웨어 / 통신
+Communication Interface
+UART , SPI , GPIO
+ 
+Peripheral Modules
+ST7735S LCD, DHT11, HC-SR04, Servo x 2, 
+DC Motor x4, Buzzer, Bluetooth, ESP32 Shield
+ 
+Bluetooth Control App
+Serial Bluetooth Terminal (Android)
+무선 블루투스 통신 제어
+ 개발 / 관리 도구
+Version Control
+GitHub
+소스 및 문서 관리
+Serial Monitor
+Tera Term 
+UART 디버깅
+
+<details>
+<summary>펼치기/접기 </summary>  
+	
+
+</details>
+
+
+</details>
+
+
+
+
+
+
+
+
 ## (STM32F103RB + HC-SR04 + ST7735S + DHT11 + BLE)
 
 https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4  
@@ -9,8 +78,11 @@ https://github.com/user-attachments/assets/e3aba4df-99dc-4d68-8e0c-35457fd25711
 
 https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6e1600
 
+---
 
-
+## 프로젝트 발표 ppt 사진
+<details>
+<summary>펼치기/접기 </summary>
 
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/f99004a6-ffff-458c-8ae8-05328ed5a075" />
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a8dc09e9-4034-4705-bd9b-ae313947dcf8" />
@@ -61,6 +133,11 @@ https://github.com/user-attachments/assets/305a502c-8d28-4acd-9f63-e025dc545eda
 
 
 https://github.com/user-attachments/assets/91ee5a69-d2fd-44d5-b6e6-96c3da15ccdb
+
+
+</details>
+
+
 
 
 
