@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/bea7e5ff-7d94-4662-b653-a62f1b6e1600
 - 전체 코드 및 주석은 첨부파일 main.c와 smartcar.h를 참조
 
 <br>
-<img width="760" height="1100" alt="image" src="https://github.com/user-attachments/assets/4c3b8ad7-90f9-41f3-868e-1b583e8555ae" />
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/4c3b8ad7-90f9-41f3-868e-1b583e8555ae" />
 
 
 
