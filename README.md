@@ -19,12 +19,20 @@ https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4
 
   
 **CRUISE 모드 주행**  
-https://github.com/user-attachments/assets/305a502c-8d28-4acd-9f63-e025dc545eda  
+ 
+
+
+https://github.com/user-attachments/assets/20852ed5-7ca6-4b6f-a671-449aedacbfeb
+
 
   
 
 **PATROL (자동순찰) 모드 주행**  
-https://github.com/user-attachments/assets/91ee5a69-d2fd-44d5-b6e6-96c3da15ccdb
+
+
+
+
+https://github.com/user-attachments/assets/a51ae9a6-fc97-4047-9d60-1a12eeaefe8e
 
 
 
