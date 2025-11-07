@@ -192,7 +192,6 @@ x :  주행모드 전환
 ---
 <br>
 
-  
 **main.c**
 
 <details>
@@ -2089,7 +2088,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 ---
 <br>
 
-**SAMRTCAR>H**
+**smartcar.h**
 <details>
 <summary>펼치기/접기 smartcar.h </summary>
 
