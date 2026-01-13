@@ -99,6 +99,8 @@ https://github.com/user-attachments/assets/a51ae9a6-fc97-4047-9d60-1a12eeaefe8e
 
 
 
+</details>
+
 
  
 
@@ -186,8 +188,6 @@ x :  주행모드 전환
 
 
 
-
-</details>
 
 
 
