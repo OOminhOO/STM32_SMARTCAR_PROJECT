@@ -48,7 +48,7 @@
 
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/5a03dea8-c330-4848-9dfa-0acd9f8788e0" />
 
-
+</details>
 ---
 ## 프로그램 목표  
 
@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/a51ae9a6-fc97-4047-9d60-1a12eeaefe8e
 
 
 
-</details>
+
 
 
  
