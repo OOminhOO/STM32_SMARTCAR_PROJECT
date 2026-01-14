@@ -1,7 +1,7 @@
 
 # SMARTCAR_PROJECT
 
-## 프로젝트 발표 ppt 사진
+## 프로젝트 발표 ppt
 <details>
 <summary>펼치기/접기 </summary>
 
