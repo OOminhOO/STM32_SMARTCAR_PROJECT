@@ -65,8 +65,8 @@
 ---
 ## 구현 영상
 
-**주행/로봇팔 MANUAL 모드 영상**  
-https://github.com/OOminhOO/STM32_SMARTCAR_PROJECT/blob/main/INTEGRATE.mp4  
+**주행/로봇팔 MANUAL 모드 영상**   
+https://youtu.be/Xn7ZF3Bjtoo
 
   
 **CRUISE 모드 주행**  
